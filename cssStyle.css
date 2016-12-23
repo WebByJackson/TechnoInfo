@@ -1,0 +1,35 @@
+ul{
+	margin:0px; 
+	padding:0px;
+}
+ul li a{
+	text-decoration:none;
+	color:Yellow;
+	display:block;
+}
+ul li{
+	float:left;
+	width:150px;
+	height:40;
+	background-color:black;
+	font-size:18px;
+	font-family:Comic Sans MS;
+	line-height:40px;
+	text-align:center;
+	opacity:.9;
+	display:inline;
+}
+ul li a:hover{
+	background-color:orange;
+}
+ul li ul li{
+	display:none;
+}
+ul li:hover ul li{
+	display:Block;
+}
+div {
+padding:10px;
+margin:0px;
+}
+
